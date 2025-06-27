@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="container">
+    <h1><input type="checkbox" checked> TODO</h1>
+
+    <div class="status-box">
+      <div>
+        <h2>Task Done</h2>
+        <p>Keep it up</p>
+      </div>
+      <div class="status-circle" id="status">0/0</div>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Write your next task">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
